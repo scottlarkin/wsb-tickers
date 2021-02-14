@@ -1,4 +1,4 @@
 built/*
-public/*
+public/js*
 ngrok.exe
 node_modules/*
