@@ -162,12 +162,6 @@ export default async () => {
     
         let n = 0;
     
-        // TODO:
-        // There is a relationship between performance and various variables
-        // Generally more threads = better up intil a point and it becomes worse
-        // Number of tickers & size of string per thread also impacts performance
-        //   Sample this with a bunch of variables to find the optimal configuration
-        //   Limit thread use. Currently unbounded.
         const results = await Promise.all(strs.map(async (str, i) => {
             const result = await countTickers(tickerList, str);  
             n++;
