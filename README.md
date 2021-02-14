@@ -12,7 +12,7 @@ npm
 mongodb locally on default port (connection string can be changed in source code)
 ```
 
-Will fully use 12 CPU threads every 10 minutes. Can be changed in the source code. Look for magic number 12  
+Will fully use 12 CPU threads every 10 minutes. Can be changed in the source code here : https://github.com/scottlarkin/wsb-tickers/blob/main/src/back_end/main/index.ts#L156 (12 being the number of CPUs to use)
 
 Running instructions:  
 ```
