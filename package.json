@@ -1,0 +1,47 @@
+{
+  "name": "wsb_tickers",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "tsc && npx webpack-cli build",
+    "w": "npx webpack-cli watch",
+    "start": "npm run build && node ./built/js/back_end/index.js --max_old_space_size=8096",
+    "build-fe": "npx webpack-cli build"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@material-ui/core": "^4.11.3",
+    "@nivo/core": "^0.67.0",
+    "@nivo/line": "0.67.0 ",
+    "@types/express": "^4.17.11",
+    "@types/material-ui": "^0.21.8",
+    "@types/mongoose": "^5.10.3",
+    "@types/node": "^14.14.10",
+    "@types/react": "^17.0.1",
+    "@types/react-chartjs-2": "^2.5.7",
+    "@types/react-dom": "^17.0.0",
+    "@types/styled-components": "^5.1.7",
+    "axios": "^0.21.1",
+    "chart.js": "^2.9.4",
+    "cron": "^1.8.2",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.14",
+    "react": "^17.0.1",
+    "react-chartjs-2": "^2.11.1",
+    "react-datepicker": "^3.4.1",
+    "react-dom": "^17.0.1",
+    "styled-components": "^5.2.1",
+    "ts-node": "^9.1.1",
+    "webpack": "^5.20.1"
+  },
+  "devDependencies": {
+    "css-loader": "^5.0.1",
+    "style-loader": "^2.0.0",
+    "ts-loader": "^8.0.14",
+    "typescript": "^4.1.3",
+    "webpack-cli": "^4.5.0"
+  }
+}

@@ -1,0 +1,4 @@
+built/*
+public/*
+ngrok.exe
+node_modules/*

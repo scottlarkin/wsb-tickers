@@ -1,0 +1,23 @@
+{
+    "compilerOptions": {
+      "target": "ESNext", /*Specify ECMAScript target version*/
+      "rootDir": "./",/*ts source direcotry*/
+      "moduleResolution": "node",
+      "module": "es6",
+   
+      "outDir": "../../public/js",
+
+      "jsx": "react",
+
+      // Include typings from built-in lib declarations
+      "lib": ["es2015", "dom", "dom.iterable"],
+
+      // Include module source maps for debugging
+      "sourceMap": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "allowJs": true,
+
+    },
+    "include": ["./"],
+  }

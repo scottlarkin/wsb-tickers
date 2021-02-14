@@ -1,0 +1,22 @@
+{
+    "compilerOptions": {
+      "target": "es6", /*Specify ECMAScript target version*/
+      "rootDir": "src",/*ts source direcotry*/
+      "outDir": "built/js", /*where to compile javascript files*/
+      "moduleResolution": "node",
+      "module": "commonjs",
+   
+      "jsx": "react",
+
+      // Include typings from built-in lib declarations
+      "lib": ["es2015", "dom", "dom.iterable"],
+
+      // Include module source maps for debugging
+      "sourceMap": true,
+      "esModuleInterop": true,
+      "skipLibCheck": true,
+      "allowJs": true,
+    },
+    "exclude": ["node_modules/*", "src/front_end/*"],
+    "include": ["src"]
+  }
